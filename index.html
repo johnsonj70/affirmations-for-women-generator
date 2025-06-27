@@ -7,43 +7,47 @@
 		<title>AI Affirmations for Women Generator</title>
 	</head>
 	<body>
-		<header>
-			<h1>AI Affirmations Generator for Women</h1>
-		</header>
-		<main>
-			<form>
-				<input
-					type="text"
-					placeholder="Request a Daily or Weekly Affirmation"
-					autofocus
-					required
-				/>
-				<input type="submit" />
-			</form>
-			<div>
-				<br />
-				"I am worthy of love,"
-				<br />
-				"I am proud of myself," and "I am enough"
-			</div>
-		</main>
-		<footer>
-			AI project coded by
-			<a href="https://github.com/johnsonj70" target="blank">Janice Johnson</a>,
-			is
-			<a
-				href="https://github.com/johnsonj70/affirmations-for-women-generator"
-				target="blank"
-				>open-sourced on GitHub,</a
-			>
-			and
-			<a
-				href="https://daily-affirmations-for-women.netlify.app/"
-				target="blank"
-			>
-				hosted on Netlify</a
-			>
-		</footer>
+		<div class="container">
+			<header>
+				<h1>AI Affirmations Generator for Women</h1>
+			</header>
+			<main>
+				<form>
+					<input
+						type="text"
+						placeholder="enter 'daily' or 'weekly' for affirmation"
+						autofocus
+						required
+						autocomplete="off"
+						class="instructions"
+					/>
+					<input type="submit" class="submit-button" />
+				</form>
+				<div class="affirmation">
+					<br />
+					"I am worthy of love,"
+					<br />
+					"I am proud of myself," and "I am enough"
+				</div>
+			</main>
+			<footer>
+				AI project coded by
+				<a href="https://github.com/johnsonj70" target="blank">Janice Johnson</a
+				>, is
+				<a
+					href="https://github.com/johnsonj70/affirmations-for-women-generator"
+					target="blank"
+					>open-sourced on GitHub,</a
+				>
+				and
+				<a
+					href="https://daily-affirmations-for-women.netlify.app/"
+					target="blank"
+				>
+					hosted on Netlify</a
+				>
+			</footer>
+		</div>
 	</body>
 	<script src="src/index.js"></script>
 </html>
