@@ -1,14 +1,17 @@
 body {
-	background-color: #f9f7fe;
-	font-family: Arial;
+	font-family:Bad Script;
+	font-size: 20px;
+	background-color: #eed9c4;
 }
 
 h1 {
-	font-weight: 800;
+	font-family: Bad Script;
+	font-weight: bold;
 	font-size: 36px;
+	margin-top: 20px;
 	text-align: center;
 	line-height: 1.5;
-	color: #272044;
+	color: #442303;
 }
 
 header {
@@ -26,46 +29,80 @@ form {
 
 footer {
 	text-align: center;
+	font-family: Arial;
 	font-size: 13px;
 	margin-top: 30px;
 }
 
 a {
-	color: #885df1;
+	color: #442303;
 }
+
+
 
 .container {
 	margin: 120px auto;
 	max-width: 600px;
+	position: relative;
+}
+
+.container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url("image/women.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.1;
 }
 
 .instructions {
 	padding: 16px;
-	border: 1px solid rgba(39, 33, 66, 0.5);
+	border: 1.5px solid #442303;
 	width: 80%;
-	font-size: 16px;
+	font-family: Bad Script;
+	font-size: 20px;
+	font-weight: bold;
 	border-radius: 50px;
 	line-height: 20px;
-	color: #272044;
+	color: #442303;
 }
 
 .submit-button {
 	margin-left: 10px;
-	background: #885df1;
-	color: white;
-	border: none;
+	background: #eed9c4;
+	color: #442303;
 	width: 150px;
-	font-size: 16px;
+	font-family: Bad Script;
+	font-weight: bold;
+	font-size: 20px;
 	border-radius: 50px;
+	border: 1.5px solid #442303;
 	padding: 14px 24px;
 }
 
+.submit-button:hover {
+	cursor: pointer;
+	background-color:white;
+	color: #442303;
+}
+
 .affirmation {
-	font-size: 16px;
+	font-size: 20px;
+	color: #442303;
 	background-color: white;
 	padding: 20px;
 	line-height: 2;
-	border-left: 3px solid #885df1;
+	border-left: 3px solid #442303;
+	border-right: 3px solid #442303;
 	box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 	border-radius: 10px;
+}
+
+.body:img {
+	opacity: 0.4;
 }
