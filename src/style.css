@@ -38,26 +38,9 @@ a {
 	color: #442303;
 }
 
-
-
 .container {
 	margin: 120px auto;
 	max-width: 600px;
-	position: relative;
-}
-
-.container::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	border-radius: 10px;
-	background-image: url("image/women.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.1;
 }
 
 .instructions {
@@ -85,7 +68,7 @@ a {
 	padding: 14px 24px;
 }
 
-.submit-button:hover {
+button:hover {
 	cursor: pointer;
 	background-color:white;
 	color: #442303;
@@ -103,6 +86,3 @@ a {
 	border-radius: 10px;
 }
 
-.body:img {
-	opacity: 0.4;
-}
