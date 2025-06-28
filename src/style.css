@@ -1,7 +1,7 @@
 body {
 	font-family:Bad Script;
 	font-size: 20px;
-	background-color: #eed9c4;
+	background-color: #faf0e6;
 }
 
 h1 {
@@ -57,7 +57,7 @@ a {
 
 .submit-button {
 	margin-left: 10px;
-	background: #eed9c4;
+	background: #faf0e6;
 	color: #442303;
 	width: 150px;
 	font-family: Bad Script;
@@ -68,7 +68,7 @@ a {
 	padding: 14px 24px;
 }
 
-button:hover {
+.submit-button:hover {
 	cursor: pointer;
 	background-color:white;
 	color: #442303;
