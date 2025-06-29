@@ -48,7 +48,7 @@ a {
 	border: 1.5px solid #442303;
 	width: 80%;
 	font-family: Arial;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 200;
 	border-radius: 50px;
 	line-height: 20px;
@@ -75,7 +75,8 @@ a {
 }
 
 .affirmation {
-	font-size: 20px;
+	font-size: 16px;
+	text-align: center;
 	color: #442303;
 	background-color: white;
 	padding: 20px;
@@ -86,7 +87,25 @@ a {
 	border-radius: 10px;
 }
 
+.hidden {
+	display: none;
+}
+
 .affirmation strong {
 	color: #885df1;
 }
+
+@keyframes blink-animation {
+	to {
+	  visibility: hidden;
+	}
+  }
+  @-webkit-keyframes blink-animation {
+	to {
+	  visibility: hidden;
+	}
+  }
+  .generating {
+	animation: blink-animation 1s steps(5, start) infinite;
+  }
 
