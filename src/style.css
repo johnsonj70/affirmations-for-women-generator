@@ -1,5 +1,5 @@
 body {
-	font-family:Bad Script;
+	font-family:Arial;
 	font-size: 20px;
 	background-color: #faf0e6;
 }
@@ -47,9 +47,9 @@ a {
 	padding: 16px;
 	border: 1.5px solid #442303;
 	width: 80%;
-	font-family: Bad Script;
+	font-family: Arial;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 200;
 	border-radius: 50px;
 	line-height: 20px;
 	color: #442303;
@@ -60,7 +60,7 @@ a {
 	background: #faf0e6;
 	color: #442303;
 	width: 150px;
-	font-family: Bad Script;
+	font-family: Arial;
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 50px;
@@ -84,5 +84,9 @@ a {
 	border-right: 3px solid #442303;
 	box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 	border-radius: 10px;
+}
+
+.affirmation strong {
+	color: #885df1;
 }
 
