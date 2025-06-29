@@ -21,8 +21,8 @@ function generateAffirmation(event) {
 		
 		//build API url
 	let apiKey = "00a6bfb9b6053b4664t55oaa8c181e51";
-	let context = "You are a world-class motivation coach, and I would like you to give words of affirmations";
-	let prompt = "Send me an affirmation for women only.  Include the affirmation only in your response.";
+	let context = "You are a world-class motivational coach, and I would like you to give words of affirmations.  Make sure you follow the user instructions.";
+	let prompt = "User instructions: Send me an affirmation for women only.  Include the affirmation only in your response, followed by a <br>, then add 'SheCodes AI' inside a <strong> element. ";
 	let url = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 	axios.get(url).then(displayAffirmation);
 		console.log("generating affirmation");
