@@ -4,23 +4,52 @@ body {
 	background-color: #faf0e6;
 }
 
+body img {
+max-width: 50%;
+}
+
 h1 {
-	font-family: Bad Script;
+	font-family: Pacifico;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 40px;
 	margin-top: 20px;
 	text-align: center;
 	line-height: 1.5;
-	color: #442303;
+	color: #3e1644;
 }
 
+h2 {
+	font-family: Pacifico;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.5;
+	color: #3e1644;
+}
+
+
+h3 {
+	font-family: Pacifico;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	line-height: 1.5;
+	color: #fbe8ec;
+}
+
+ol {
+	font-family: Pacifico;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+}
 header {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 form {
 	padding: 30px;
-	background-color: white;
+	background-color: #3e1644;
 	box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 	border-radius: 10px;
 	display: flex;
@@ -35,56 +64,84 @@ footer {
 }
 
 a {
-	color: #442303;
+	color:#3e1644;
 }
 
 .container {
-	margin: 120px auto;
+	position: relative;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
 	max-width: 600px;
+}
+
+.main-instructions {
+	padding: 16px;
+	border: 1.5px solid #3e1644;
+	max-width: 600px;
+	font-size: 14px;
+	border-radius: 10px;
+	line-height: 20px;
+	background-color: #3e1644;
+	border-left: 3px solid #ac4e9b;
+	border-right: 3px solid #ac4e9b;
+	color: #fbe8ec;
+}
+
+.form {
+	border-left: 3px solid #ac4e9b;
+	border-right: 3px solid #ac4e9b;
 }
 
 .instructions {
 	padding: 16px;
-	border: 1.5px solid #442303;
+	border: 1.5px solid #3e1644;
 	width: 80%;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: 200;
+	font-family: Pacifico;
+	font-size: 15px;
 	border-radius: 50px;
 	line-height: 20px;
-	color: #442303;
+	background-color: #fbe8ec;
+	color: #3e1644;
 }
 
 .submit-button {
 	margin-left: 10px;
 	text-align: center;
-	background: #faf0e6;
-	color: #442303;
+	background: #fbe8ec;
+	color: #3e1644;
 	width: 150px;
-	font-family: Arial;
-	font-size: 18px;
+	font-family: Pacifico;
+	font-size: 16px;
+	font-weight: 200;
 	border-radius: 50px;
-	border: 1.5px solid #442303;
+	border: 1.5px solid #3e1644;
 	padding: 14px 12px;
 }
 
 .submit-button:hover {
 	cursor: pointer;
 	background-color:white;
-	color: #442303;
+	color: #3e1644;
 }
 
 .affirmation {
+	font-family: Pacifico;
 	font-size: 16px;
 	text-align: center;
-	color: #442303;
-	background-color: white;
+	color: #fbe8ec;
+	background-color: #3e1644;
 	padding: 20px;
 	line-height: 2;
-	border-left: 3px solid #442303;
-	border-right: 3px solid #442303;
+	border-left: 3px solid #ac4e9b;
+	border-right: 3px solid #ac4e9b;
 	box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 	border-radius: 10px;
+}
+
+.affirmation:img {
+	display:block;
+	max-width: 600;
 }
 
 .hidden {
