@@ -5,29 +5,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Geologica:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="src/style.css" />
 		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 		<title>AI Affirmations for Women Generator</title>
 	</head>
-	<body>
+	<body background="src/image/purple-woman.jpeg">
 		<div class="container">
 				<header>
 					<br>
-					<h1>AI Affirmations Generator for Women</h1>
+					<h1>Affirmations for Women</h1>
+					<h2>AI GENERATOR</h2>
 				</header>
 				<main>
-					<form id="affirmation-generator-form">
+				<div class="main-instructions" id="main-instructions">
+				<p>
+				<h3>Instructions</h3>
+				<ol>
+				 	<li>Decide what you want your affirmation to be about, i.e., confidence, love, happiness, success, gratitude, healing.</li><br>
+					<li>Press "Get Affirmation" and your affirmation is generated.</li>
+				</ol>
+				</div>
+				<br>
+				</p>
+					<form class="form" id="affirmation-generator-form">
 						<input
 							type="text"
-							placeholder="enter 'daily', without quotes, for an affirmation"
+							placeholder="enter your oaffirmation type, i.e., affirmation for love."
 							autofocus
 							required
 							autocomplete="off"
 							class="instructions" id="user-instructions"
 						/>
-						<input type="submit" class="submit-button" />
+						<input type="submit" class="submit-button" value="Get Affirmation" />
 					</form>
 					<div class="affirmation hidden" id="affirmation"></div>
 				</main>
