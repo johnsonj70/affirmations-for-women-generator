@@ -15,9 +15,13 @@ div {
 	width: 100%;
     max-width: 700px; /* Maximum width of the container */
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+header {
+	padding-top: 150px;
 }
 
 body {
